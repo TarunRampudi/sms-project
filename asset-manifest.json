@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/sms-project/static/css/main.3e8c9ce6.css",
+    "main.js": "/sms-project/static/js/main.14cd953e.js",
+    "static/media/image.jpeg": "/sms-project/static/media/image.1214c9aa53d28b262626.jpeg",
+    "index.html": "/sms-project/index.html",
+    "main.3e8c9ce6.css.map": "/sms-project/static/css/main.3e8c9ce6.css.map",
+    "main.14cd953e.js.map": "/sms-project/static/js/main.14cd953e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e8c9ce6.css",
+    "static/js/main.14cd953e.js"
+  ]
+}
