@@ -1,0 +1,64 @@
+/* FeedbackForm.css */
+.feedback-options {
+    display: flex;
+    justify-content: space-between; /* Space the radio buttons evenly */
+    margin-bottom: 10px;
+}
+
+.feedback-options label {
+    display: flex;
+    align-items: center; /* Align text and radio buttons vertically */
+    margin-right: 20px;  /* Add space between the options */
+    font-size: 14px;
+}
+
+.feedback-options input[type="radio"] {
+    margin-right: 8px; /* Space between radio button and label text */
+}
+
+/* Style the container for the feedback form */
+.feedback-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* General form styling */
+.feedback-form h3 {
+    margin-top: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.feedback-options label.radio-label {
+    cursor: pointer;
+    padding: 8px 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.feedback-options label.radio-label:hover {
+    background-color: #e0e0e0;
+}
+
+.submit-button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}

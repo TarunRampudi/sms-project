@@ -1,0 +1,56 @@
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.9); /* Light background */
+}
+
+h2 {
+    margin-bottom: 30px; /* Increased space below the heading */
+    color: #333; /* Darker color for the heading */
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; /* Make inputs fill the box */
+    width: 400px; /* Decreased width for the form box */
+    border: 2px solid black; /* Black border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 30px; /* Increased padding inside the box */
+    background-color: white; /* Background color for the box */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Space between form groups */
+}
+
+label {
+    margin-bottom: 5px; /* Space below the label */
+    display: block; /* Ensures label takes the full width */
+}
+
+input {
+    padding: 10px; /* Decreased padding for inputs */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Full width for the input fields */
+}
+
+button {
+    padding: 12px; /* Increased padding for button */
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 123, 255, 0.8); /* Button color */
+    color: white;
+    transition: background-color 0.3s;
+    align-self: center; /* Center the button */
+}
+
+button:hover {
+    background-color: rgba(0, 123, 255, 1); /* Fully opaque on hover */
+}
